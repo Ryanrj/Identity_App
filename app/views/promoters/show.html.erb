@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @promoter.First_Name %>
+</p>
+
+<p>
+  <strong>Surname:</strong>
+  <%= @promoter.Surname %>
+</p>
+
+<p>
+  <strong>Company name:</strong>
+  <%= @promoter.Company_Name %>
+</p>
+
+<p>
+  <strong>Bio:</strong>
+  <%= @promoter.BIO %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @promoter.Location %>
+</p>
+
+<p>
+  <strong>Website:</strong>
+  <%= @promoter.Website %>
+</p>
+
+<p>
+  <strong>Facebook:</strong>
+  <%= @promoter.Facebook %>
+</p>
+
+<p>
+  <strong>Twitter:</strong>
+  <%= @promoter.Twitter %>
+</p>
+
+<%= link_to 'Edit', edit_promoter_path(@promoter) %> |
+<%= link_to 'Back', promoters_path %>
